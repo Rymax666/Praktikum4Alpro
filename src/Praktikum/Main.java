@@ -9,7 +9,7 @@ public class Main {
 
         fib[0] = 0;
         fib[1] = 1;
-        //untuk menginisialisasikan nilai dari indek 0 adalah 0 dan nilai dari indek 1 adalah 1
+        //untuk menginisialisasikan nilai dari index 0 adalah 0 dan nilai dari indek 1 adalah 1
 
         for (int i = 2; i < n; i++){
             fib[i] = fib[i-1] + fib[i-2];
